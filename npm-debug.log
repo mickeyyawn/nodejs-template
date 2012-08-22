@@ -1,0 +1,889 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'update' ]
+2 info using npm@1.1.32
+3 info using node@v0.8.0
+4 verbose config file /Users/mickey/.npmrc
+5 verbose config file /usr/local/etc/npmrc
+6 verbose config file /usr/local/lib/node_modules/npm/npmrc
+7 verbose read json /Users/mickey/Sites/nodejs-template/package.json
+8 verbose read json /Users/mickey/Sites/nodejs-template/node_modules/.bin/package.json
+9 verbose read json /Users/mickey/Sites/nodejs-template/node_modules/.DS_Store/package.json
+10 verbose read json /Users/mickey/Sites/nodejs-template/node_modules/express/package.json
+11 verbose read json /Users/mickey/Sites/nodejs-template/node_modules/jade/package.json
+12 verbose read json /Users/mickey/Sites/nodejs-template/node_modules/mongodb/package.json
+13 verbose cache add [ 'express', 'latest' ]
+14 silly cache add name="express" spec="latest" args=["express","latest"]
+15 verbose parsed url { pathname: 'latest', path: 'latest', href: 'latest' }
+16 verbose addNamed [ 'express', 'latest' ]
+17 verbose addNamed [ null, null ]
+18 info addNameTag [ 'express', 'latest' ]
+19 verbose cache add [ 'jade', 'latest' ]
+20 silly cache add name="jade" spec="latest" args=["jade","latest"]
+21 verbose parsed url { pathname: 'latest', path: 'latest', href: 'latest' }
+22 verbose addNamed [ 'jade', 'latest' ]
+23 verbose addNamed [ null, null ]
+24 info addNameTag [ 'jade', 'latest' ]
+25 verbose cache add [ 'mongodb', 'latest' ]
+26 silly cache add name="mongodb" spec="latest" args=["mongodb","latest"]
+27 verbose parsed url { pathname: 'latest', path: 'latest', href: 'latest' }
+28 verbose addNamed [ 'mongodb', 'latest' ]
+29 verbose addNamed [ null, null ]
+30 info addNameTag [ 'mongodb', 'latest' ]
+31 verbose cache add [ 'socket.io', 'latest' ]
+32 silly cache add name="socket.io" spec="latest" args=["socket.io","latest"]
+33 verbose parsed url { pathname: 'latest', path: 'latest', href: 'latest' }
+34 verbose addNamed [ 'socket.io', 'latest' ]
+35 verbose addNamed [ null, null ]
+36 info addNameTag [ 'socket.io', 'latest' ]
+37 verbose url raw jade
+38 verbose url resolving [ 'https://registry.npmjs.org/', './jade' ]
+39 verbose url resolved https://registry.npmjs.org/jade
+40 verbose etag "8EU29VVYZIQDD5V2F6FIVMG22"
+41 http GET https://registry.npmjs.org/jade
+42 verbose url raw express
+43 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+44 verbose url resolved https://registry.npmjs.org/express
+45 verbose etag "5UEFH0W59Z6BQ841XY9TFVPE4"
+46 http GET https://registry.npmjs.org/express
+47 verbose url raw socket.io
+48 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+49 verbose url resolved https://registry.npmjs.org/socket.io
+50 verbose etag "VO1X4T76QKAX84RFZQ4WTZJR"
+51 http GET https://registry.npmjs.org/socket.io
+52 verbose url raw mongodb
+53 verbose url resolving [ 'https://registry.npmjs.org/', './mongodb' ]
+54 verbose url resolved https://registry.npmjs.org/mongodb
+55 verbose etag "4AWJN11S2AK5S02V5K6WYOLS9"
+56 http GET https://registry.npmjs.org/mongodb
+57 http 200 https://registry.npmjs.org/socket.io
+58 silly registry.get cb [ 200,
+58 silly registry.get   { vary: 'Accept',
+58 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+58 silly registry.get     etag: '"DPHCPBKIMHS3AA80D29TUOGSZ"',
+58 silly registry.get     date: 'Thu, 16 Aug 2012 19:15:44 GMT',
+58 silly registry.get     'content-type': 'application/json',
+58 silly registry.get     'content-length': '156285' } ]
+59 http 200 https://registry.npmjs.org/jade
+60 silly registry.get cb [ 200,
+60 silly registry.get   { vary: 'Accept',
+60 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+60 silly registry.get     etag: '"60ITW1YE895GO1D49OV0DJOGH"',
+60 silly registry.get     date: 'Thu, 16 Aug 2012 19:15:44 GMT',
+60 silly registry.get     'content-type': 'application/json',
+60 silly registry.get     'content-length': '64456' } ]
+61 http 200 https://registry.npmjs.org/express
+62 silly registry.get cb [ 200,
+62 silly registry.get   { vary: 'Accept',
+62 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+62 silly registry.get     etag: '"8DM9O9N58A2EVZL2N49KLZNUQ"',
+62 silly registry.get     date: 'Thu, 16 Aug 2012 19:15:44 GMT',
+62 silly registry.get     'content-type': 'application/json',
+62 silly registry.get     'content-length': '192853' } ]
+63 verbose read json /Users/mickey/.npm/socket.io/0.9.10/package/package.json
+64 verbose addRemoteTarball [ 'https://registry.npmjs.org/jade/-/jade-0.27.2.tgz',
+64 verbose addRemoteTarball   'a18b7645246165d4e2c284b7773ec8936ccee557' ]
+65 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-3.0.0rc3.tgz',
+65 verbose addRemoteTarball   '740d4e14335a1e92a19493930def0c747a0367b4' ]
+66 verbose fetch to= /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144547400-0.5042750237043947/tmp.tgz
+67 verbose fetch to= /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144547401-0.24327066214755177/tmp.tgz
+68 http GET https://registry.npmjs.org/jade/-/jade-0.27.2.tgz
+69 http GET https://registry.npmjs.org/express/-/express-3.0.0rc3.tgz
+70 http 200 https://registry.npmjs.org/mongodb
+71 silly registry.get cb [ 200,
+71 silly registry.get   { vary: 'Accept',
+71 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+71 silly registry.get     etag: '"CQXA6RLV1CSQ1A9Y1CVF6W2XB"',
+71 silly registry.get     date: 'Thu, 16 Aug 2012 19:15:44 GMT',
+71 silly registry.get     'content-type': 'application/json',
+71 silly registry.get     'content-length': '580135' } ]
+72 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongodb/-/mongodb-1.1.4.tgz',
+72 verbose addRemoteTarball   'bff5860c87b809778d7af991c2c67d596111ebe6' ]
+73 verbose fetch to= /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144547528-0.8716699487995356/tmp.tgz
+74 http GET https://registry.npmjs.org/mongodb/-/mongodb-1.1.4.tgz
+75 silly shasum updated bytes 40960
+76 silly shasum updated bytes 11505
+77 info shasum a18b7645246165d4e2c284b7773ec8936ccee557
+77 info shasum /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144547400-0.5042750237043947/tmp.tgz
+78 verbose tar unpack /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144547400-0.5042750237043947/tmp.tgz
+79 silly shasum updated bytes 34114
+80 silly gunzTarPerm modes [ '755', '644' ]
+81 info shasum 740d4e14335a1e92a19493930def0c747a0367b4
+81 info shasum /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144547401-0.24327066214755177/tmp.tgz
+82 verbose tar unpack /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144547401-0.24327066214755177/tmp.tgz
+83 silly gunzTarPerm modes [ '755', '644' ]
+84 silly gunzTarPerm extractEntry package.json
+85 silly gunzTarPerm extractEntry package.json
+86 silly gunzTarPerm extractEntry .npmignore
+87 silly gunzTarPerm extractEntry LICENSE
+88 silly gunzTarPerm extractEntry .npmignore
+89 silly gunzTarPerm extractEntry LICENSE
+90 silly gunzTarPerm extractEntry client.js
+91 silly gunzTarPerm extractEntry index.js
+92 silly gunzTarPerm extractEntry jade.js
+93 silly gunzTarPerm extractEntry index.js
+94 silly gunzTarPerm extractEntry test.js
+95 silly gunzTarPerm extractEntry jade.min.js
+96 silly gunzTarPerm extractEntry runtime.js
+97 silly gunzTarPerm extractEntry runtime.min.js
+98 silly gunzTarPerm extractEntry .travis.yml
+99 silly gunzTarPerm extractEntry History.md
+100 silly gunzTarPerm extractEntry Makefile
+101 silly gunzTarPerm extractEntry testing/index.js
+102 silly gunzTarPerm extractEntry testing/user.js
+103 silly gunzTarPerm extractEntry bin/express
+104 silly gunzTarPerm extractEntry Readme.md
+105 silly gunzTarPerm extractEntry testing/head.jade
+106 silly gunzTarPerm extractEntry testing/index.jade
+107 silly gunzTarPerm extractEntry testing/layout.jade
+108 silly gunzTarPerm extractEntry testing/user.jade
+109 silly gunzTarPerm extractEntry lib/application.js
+110 silly gunzTarPerm extractEntry lib/express.js
+111 silly gunzTarPerm extractEntry bin/jade
+112 silly gunzTarPerm extractEntry jade.md
+113 silly gunzTarPerm extractEntry test.jade
+114 silly gunzTarPerm extractEntry lib/compiler.js
+115 silly gunzTarPerm extractEntry lib/filters.js
+116 silly gunzTarPerm extractEntry lib/inline-tags.js
+117 silly gunzTarPerm extractEntry lib/jade.js
+118 silly gunzTarPerm extractEntry lib/middleware.js
+119 silly gunzTarPerm extractEntry lib/request.js
+120 silly gunzTarPerm extractEntry lib/doctypes.js
+121 silly gunzTarPerm extractEntry lib/self-closing.js
+122 silly gunzTarPerm extractEntry lib/parser.js
+123 silly gunzTarPerm extractEntry lib/runtime.js
+124 silly gunzTarPerm extractEntry lib/utils.js
+125 silly gunzTarPerm extractEntry lib/lexer.js
+126 silly gunzTarPerm extractEntry lib/response.js
+127 silly gunzTarPerm extractEntry lib/utils.js
+128 silly gunzTarPerm extractEntry lib/nodes/attrs.js
+129 silly gunzTarPerm extractEntry lib/nodes/code.js
+130 silly gunzTarPerm extractEntry lib/nodes/comment.js
+131 silly gunzTarPerm extractEntry lib/nodes/doctype.js
+132 silly gunzTarPerm extractEntry lib/nodes/case.js
+133 silly gunzTarPerm extractEntry lib/nodes/filter.js
+134 silly gunzTarPerm extractEntry lib/nodes/index.js
+135 silly gunzTarPerm extractEntry lib/view.js
+136 silly gunzTarPerm extractEntry lib/router/index.js
+137 silly gunzTarPerm extractEntry lib/nodes/literal.js
+138 silly gunzTarPerm extractEntry lib/nodes/mixin.js
+139 silly gunzTarPerm extractEntry lib/router/route.js
+140 silly gunzTarPerm extractEntry lib/nodes/node.js
+141 silly gunzTarPerm extractEntry lib/nodes/block.js
+142 silly gunzTarPerm extractEntry lib/nodes/tag.js
+143 silly gunzTarPerm extractEntry lib/nodes/block-comment.js
+144 silly gunzTarPerm extractEntry lib/nodes/text.js
+145 silly gunzTarPerm extractEntry lib/nodes/each.js
+146 verbose read json /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144547401-0.24327066214755177/package/package.json
+147 verbose from cache /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144547401-0.24327066214755177/package/package.json
+148 verbose tar pack [ '/Users/mickey/.npm/express/3.0.0rc3/package.tgz',
+148 verbose tar pack   '/var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144547401-0.24327066214755177/package' ]
+149 verbose tarball /Users/mickey/.npm/express/3.0.0rc3/package.tgz
+150 verbose folder /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144547401-0.24327066214755177/package
+151 silly shasum updated bytes 16384
+152 silly shasum updated bytes 40960
+153 silly shasum updated bytes 40960
+154 silly shasum updated bytes 40960
+155 silly shasum updated bytes 40960
+156 silly shasum updated bytes 40960
+157 silly shasum updated bytes 40960
+158 silly shasum updated bytes 40960
+159 silly shasum updated bytes 40960
+160 silly shasum updated bytes 40960
+161 silly shasum updated bytes 40960
+162 silly shasum updated bytes 40960
+163 silly shasum updated bytes 40960
+164 silly shasum updated bytes 36864
+165 silly shasum updated bytes 36864
+166 silly shasum updated bytes 40960
+167 silly shasum updated bytes 40960
+168 silly shasum updated bytes 8717
+169 info shasum bff5860c87b809778d7af991c2c67d596111ebe6
+169 info shasum /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144547528-0.8716699487995356/tmp.tgz
+170 verbose tar unpack /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144547528-0.8716699487995356/tmp.tgz
+171 silly gunzTarPerm modes [ '755', '644' ]
+172 silly gunzTarPerm extractEntry package.json
+173 silly gunzTarPerm extractEntry index.js
+174 silly gunzTarPerm extractEntry install.js
+175 silly gunzTarPerm extractEntry .tm_properties
+176 silly gunzTarPerm extractEntry lib/mongodb/admin.js
+177 silly gunzTarPerm extractEntry lib/mongodb/index.js
+178 silly gunzTarPerm extractEntry lib/mongodb/db.js
+179 silly gunzTarPerm extractEntry lib/mongodb/cursor.js
+180 silly gunzTarPerm extractEntry lib/mongodb/collection.js
+181 silly gunzTarPerm extractEntry lib/mongodb/utils.js
+182 silly gunzTarPerm extractEntry lib/mongodb/cursorstream.js
+183 silly gunzTarPerm extractEntry lib/mongodb/connection/connection.js
+184 silly gunzTarPerm extractEntry lib/mongodb/connection/connection_pool.js
+185 silly gunzTarPerm extractEntry lib/mongodb/connection/connection_utils.js
+186 silly gunzTarPerm extractEntry lib/mongodb/connection/mongos.js
+187 silly gunzTarPerm extractEntry lib/mongodb/connection/read_preference.js
+188 silly gunzTarPerm extractEntry lib/mongodb/connection/repl_set.js
+189 silly gunzTarPerm extractEntry lib/mongodb/connection/server.js
+190 silly gunzTarPerm extractEntry lib/mongodb/connection/strategies/ping_strategy.js
+191 silly gunzTarPerm extractEntry lib/mongodb/connection/strategies/statistics_strategy.js
+192 silly gunzTarPerm extractEntry lib/mongodb/gridfs/chunk.js
+193 silly gunzTarPerm extractEntry lib/mongodb/gridfs/grid.js
+194 silly gunzTarPerm extractEntry lib/mongodb/gridfs/gridstore.js
+195 silly gunzTarPerm extractEntry lib/mongodb/gridfs/readstream.js
+196 silly gunzTarPerm extractEntry lib/mongodb/commands/base_command.js
+197 silly gunzTarPerm extractEntry lib/mongodb/commands/db_command.js
+198 silly gunzTarPerm extractEntry lib/mongodb/commands/delete_command.js
+199 silly gunzTarPerm extractEntry lib/mongodb/commands/get_more_command.js
+200 silly gunzTarPerm extractEntry lib/mongodb/commands/insert_command.js
+201 silly gunzTarPerm extractEntry lib/mongodb/commands/kill_cursor_command.js
+202 silly gunzTarPerm extractEntry lib/mongodb/commands/query_command.js
+203 silly gunzTarPerm extractEntry lib/mongodb/commands/update_command.js
+204 silly gunzTarPerm extractEntry lib/mongodb/responses/mongo_reply.js
+205 silly gunzTarPerm extractEntry Makefile
+206 silly gunzTarPerm extractEntry .travis.yml
+207 silly gunzTarPerm extractEntry Readme.md
+208 silly gunzTarPerm extractEntry test_gs_weird_bug_streamed.tmp
+209 silly gunzTarPerm extractEntry test_gs_working_field_read.tmp
+210 silly gunzTarPerm extractEntry test_stream_write_2.tmp
+211 silly gunzTarPerm extractEntry upload.py
+212 verbose read json /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144547400-0.5042750237043947/package/package.json
+213 verbose from cache /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144547400-0.5042750237043947/package/package.json
+214 verbose tar pack [ '/Users/mickey/.npm/jade/0.27.2/package.tgz',
+214 verbose tar pack   '/var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144547400-0.5042750237043947/package' ]
+215 verbose tarball /Users/mickey/.npm/jade/0.27.2/package.tgz
+216 verbose folder /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144547400-0.5042750237043947/package
+217 verbose tar unpack /Users/mickey/.npm/express/3.0.0rc3/package.tgz
+218 silly gunzTarPerm modes [ '755', '644' ]
+219 silly gunzTarPerm extractEntry package.json
+220 silly gunzTarPerm extractEntry .npmignore
+221 silly gunzTarPerm extractEntry LICENSE
+222 silly gunzTarPerm extractEntry client.js
+223 silly gunzTarPerm extractEntry index.js
+224 silly gunzTarPerm extractEntry test.js
+225 silly gunzTarPerm extractEntry .travis.yml
+226 silly gunzTarPerm extractEntry History.md
+227 silly gunzTarPerm extractEntry Makefile
+228 silly gunzTarPerm extractEntry bin/express
+229 silly gunzTarPerm extractEntry Readme.md
+230 silly gunzTarPerm extractEntry lib/application.js
+231 silly gunzTarPerm extractEntry lib/express.js
+232 silly gunzTarPerm extractEntry lib/middleware.js
+233 silly gunzTarPerm extractEntry lib/request.js
+234 silly gunzTarPerm extractEntry lib/response.js
+235 silly gunzTarPerm extractEntry lib/utils.js
+236 silly gunzTarPerm extractEntry lib/view.js
+237 silly gunzTarPerm extractEntry lib/router/index.js
+238 silly gunzTarPerm extractEntry lib/router/route.js
+239 verbose read json /Users/mickey/.npm/express/3.0.0rc3/package/package.json
+240 silly shasum updated bytes 8192
+241 silly shasum updated bytes 25922
+242 info shasum 740d4e14335a1e92a19493930def0c747a0367b4
+242 info shasum /Users/mickey/.npm/express/3.0.0rc3/package.tgz
+243 verbose from cache /Users/mickey/.npm/express/3.0.0rc3/package/package.json
+244 verbose chmod /Users/mickey/.npm/express/3.0.0rc3/package.tgz 644
+245 verbose chown /Users/mickey/.npm/express/3.0.0rc3/package.tgz [ 501, 20 ]
+246 verbose tar unpack /Users/mickey/.npm/jade/0.27.2/package.tgz
+247 silly gunzTarPerm modes [ '755', '644' ]
+248 silly gunzTarPerm extractEntry package.json
+249 silly gunzTarPerm extractEntry .npmignore
+250 silly gunzTarPerm extractEntry LICENSE
+251 silly gunzTarPerm extractEntry index.js
+252 silly gunzTarPerm extractEntry jade.js
+253 silly gunzTarPerm extractEntry jade.min.js
+254 silly gunzTarPerm extractEntry runtime.js
+255 silly gunzTarPerm extractEntry runtime.min.js
+256 silly gunzTarPerm extractEntry testing/index.js
+257 silly gunzTarPerm extractEntry testing/user.js
+258 silly gunzTarPerm extractEntry testing/head.jade
+259 silly gunzTarPerm extractEntry testing/index.jade
+260 silly gunzTarPerm extractEntry testing/layout.jade
+261 silly gunzTarPerm extractEntry testing/user.jade
+262 silly gunzTarPerm extractEntry bin/jade
+263 silly gunzTarPerm extractEntry jade.md
+264 silly gunzTarPerm extractEntry test.jade
+265 silly gunzTarPerm extractEntry lib/compiler.js
+266 silly gunzTarPerm extractEntry lib/filters.js
+267 silly gunzTarPerm extractEntry lib/inline-tags.js
+268 silly gunzTarPerm extractEntry lib/jade.js
+269 silly gunzTarPerm extractEntry lib/doctypes.js
+270 silly gunzTarPerm extractEntry lib/self-closing.js
+271 silly gunzTarPerm extractEntry lib/parser.js
+272 silly gunzTarPerm extractEntry lib/runtime.js
+273 silly gunzTarPerm extractEntry lib/utils.js
+274 silly gunzTarPerm extractEntry lib/lexer.js
+275 silly gunzTarPerm extractEntry lib/nodes/attrs.js
+276 silly gunzTarPerm extractEntry lib/nodes/code.js
+277 silly gunzTarPerm extractEntry lib/nodes/comment.js
+278 silly gunzTarPerm extractEntry lib/nodes/doctype.js
+279 silly gunzTarPerm extractEntry lib/nodes/case.js
+280 silly gunzTarPerm extractEntry lib/nodes/filter.js
+281 silly gunzTarPerm extractEntry lib/nodes/index.js
+282 silly gunzTarPerm extractEntry lib/nodes/literal.js
+283 silly gunzTarPerm extractEntry lib/nodes/mixin.js
+284 silly gunzTarPerm extractEntry lib/nodes/node.js
+285 silly gunzTarPerm extractEntry lib/nodes/block.js
+286 silly gunzTarPerm extractEntry lib/nodes/tag.js
+287 silly gunzTarPerm extractEntry lib/nodes/block-comment.js
+288 silly gunzTarPerm extractEntry lib/nodes/text.js
+289 silly gunzTarPerm extractEntry lib/nodes/each.js
+290 verbose read json /Users/mickey/.npm/jade/0.27.2/package/package.json
+291 silly shasum updated bytes 40960
+292 silly shasum updated bytes 11505
+293 info shasum a18b7645246165d4e2c284b7773ec8936ccee557
+293 info shasum /Users/mickey/.npm/jade/0.27.2/package.tgz
+294 verbose from cache /Users/mickey/.npm/jade/0.27.2/package/package.json
+295 verbose chmod /Users/mickey/.npm/jade/0.27.2/package.tgz 644
+296 verbose chown /Users/mickey/.npm/jade/0.27.2/package.tgz [ 501, 20 ]
+297 verbose read json /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144547528-0.8716699487995356/package/package.json
+298 verbose from cache /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144547528-0.8716699487995356/package/package.json
+299 verbose tar pack [ '/Users/mickey/.npm/mongodb/1.1.4/package.tgz',
+299 verbose tar pack   '/var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144547528-0.8716699487995356/package' ]
+300 verbose tarball /Users/mickey/.npm/mongodb/1.1.4/package.tgz
+301 verbose folder /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144547528-0.8716699487995356/package
+302 verbose tar unpack /Users/mickey/.npm/mongodb/1.1.4/package.tgz
+303 silly gunzTarPerm modes [ '755', '644' ]
+304 silly gunzTarPerm extractEntry package.json
+305 silly gunzTarPerm extractEntry index.js
+306 silly gunzTarPerm extractEntry install.js
+307 silly gunzTarPerm extractEntry .tm_properties
+308 silly gunzTarPerm extractEntry lib/mongodb/admin.js
+309 silly gunzTarPerm extractEntry lib/mongodb/index.js
+310 silly gunzTarPerm extractEntry lib/mongodb/db.js
+311 silly gunzTarPerm extractEntry lib/mongodb/cursor.js
+312 silly gunzTarPerm extractEntry lib/mongodb/collection.js
+313 silly gunzTarPerm extractEntry lib/mongodb/utils.js
+314 silly gunzTarPerm extractEntry lib/mongodb/cursorstream.js
+315 silly gunzTarPerm extractEntry lib/mongodb/connection/connection.js
+316 silly gunzTarPerm extractEntry lib/mongodb/connection/connection_pool.js
+317 silly gunzTarPerm extractEntry lib/mongodb/connection/connection_utils.js
+318 silly gunzTarPerm extractEntry lib/mongodb/connection/mongos.js
+319 silly gunzTarPerm extractEntry lib/mongodb/connection/read_preference.js
+320 silly gunzTarPerm extractEntry lib/mongodb/connection/repl_set.js
+321 silly gunzTarPerm extractEntry lib/mongodb/connection/server.js
+322 silly gunzTarPerm extractEntry lib/mongodb/connection/strategies/ping_strategy.js
+323 silly gunzTarPerm extractEntry lib/mongodb/connection/strategies/statistics_strategy.js
+324 silly gunzTarPerm extractEntry lib/mongodb/gridfs/chunk.js
+325 silly gunzTarPerm extractEntry lib/mongodb/gridfs/grid.js
+326 silly gunzTarPerm extractEntry lib/mongodb/gridfs/gridstore.js
+327 silly gunzTarPerm extractEntry lib/mongodb/gridfs/readstream.js
+328 silly gunzTarPerm extractEntry lib/mongodb/commands/base_command.js
+329 silly gunzTarPerm extractEntry lib/mongodb/commands/db_command.js
+330 silly gunzTarPerm extractEntry lib/mongodb/commands/delete_command.js
+331 silly gunzTarPerm extractEntry lib/mongodb/commands/get_more_command.js
+332 silly gunzTarPerm extractEntry lib/mongodb/commands/insert_command.js
+333 silly gunzTarPerm extractEntry lib/mongodb/commands/kill_cursor_command.js
+334 silly gunzTarPerm extractEntry lib/mongodb/commands/query_command.js
+335 silly gunzTarPerm extractEntry lib/mongodb/commands/update_command.js
+336 silly gunzTarPerm extractEntry lib/mongodb/responses/mongo_reply.js
+337 silly gunzTarPerm extractEntry Makefile
+338 silly gunzTarPerm extractEntry .travis.yml
+339 silly gunzTarPerm extractEntry Readme.md
+340 silly gunzTarPerm extractEntry test_gs_weird_bug_streamed.tmp
+341 silly gunzTarPerm extractEntry test_gs_working_field_read.tmp
+342 silly gunzTarPerm extractEntry test_stream_write_2.tmp
+343 silly gunzTarPerm extractEntry upload.py
+344 verbose read json /Users/mickey/.npm/mongodb/1.1.4/package/package.json
+345 silly shasum updated bytes 40960
+346 silly shasum updated bytes 40960
+347 silly shasum updated bytes 40960
+348 silly shasum updated bytes 40960
+349 silly shasum updated bytes 40960
+350 silly shasum updated bytes 40960
+351 silly shasum updated bytes 40960
+352 silly shasum updated bytes 40960
+353 silly shasum updated bytes 40960
+354 silly shasum updated bytes 40960
+355 silly shasum updated bytes 40960
+356 silly shasum updated bytes 40960
+357 silly shasum updated bytes 40960
+358 silly shasum updated bytes 40960
+359 silly shasum updated bytes 40960
+360 silly shasum updated bytes 40960
+361 silly shasum updated bytes 16909
+362 info shasum bff5860c87b809778d7af991c2c67d596111ebe6
+362 info shasum /Users/mickey/.npm/mongodb/1.1.4/package.tgz
+363 verbose from cache /Users/mickey/.npm/mongodb/1.1.4/package/package.json
+364 verbose chmod /Users/mickey/.npm/mongodb/1.1.4/package.tgz 644
+365 verbose chown /Users/mickey/.npm/mongodb/1.1.4/package.tgz [ 501, 20 ]
+366 info outdated updating [ [ '/Users/mickey/Sites/nodejs-template',
+366 info outdated     'socket.io',
+366 info outdated     undefined,
+366 info outdated     '0.9.10' ],
+366 info outdated   [ '/Users/mickey/Sites/nodejs-template',
+366 info outdated     'express',
+366 info outdated     '3.0.0rc1',
+366 info outdated     '3.0.0rc3' ],
+366 info outdated   [ '/Users/mickey/Sites/nodejs-template',
+366 info outdated     'jade',
+366 info outdated     '0.27.0',
+366 info outdated     '0.27.2' ],
+366 info outdated   [ '/Users/mickey/Sites/nodejs-template',
+366 info outdated     'mongodb',
+366 info outdated     '1.1.2',
+366 info outdated     '1.1.4' ] ]
+367 verbose install where,what [ '/Users/mickey/Sites/nodejs-template',
+367 verbose install   [ 'socket.io@0.9.10' ] ]
+368 verbose install where,what [ '/Users/mickey/Sites/nodejs-template',
+368 verbose install   [ 'express@3.0.0rc3' ] ]
+369 verbose install where,what [ '/Users/mickey/Sites/nodejs-template', [ 'jade@0.27.2' ] ]
+370 verbose install where,what [ '/Users/mickey/Sites/nodejs-template', [ 'mongodb@1.1.4' ] ]
+371 verbose from cache /Users/mickey/Sites/nodejs-template/package.json
+372 verbose from cache /Users/mickey/Sites/nodejs-template/package.json
+373 verbose from cache /Users/mickey/Sites/nodejs-template/package.json
+374 verbose from cache /Users/mickey/Sites/nodejs-template/package.json
+375 verbose from cache /Users/mickey/Sites/nodejs-template/node_modules/express/package.json
+376 verbose from cache /Users/mickey/Sites/nodejs-template/node_modules/jade/package.json
+377 verbose from cache /Users/mickey/Sites/nodejs-template/node_modules/mongodb/package.json
+378 verbose from cache /Users/mickey/Sites/nodejs-template/node_modules/express/package.json
+379 verbose from cache /Users/mickey/Sites/nodejs-template/node_modules/jade/package.json
+380 verbose from cache /Users/mickey/Sites/nodejs-template/node_modules/mongodb/package.json
+381 verbose from cache /Users/mickey/Sites/nodejs-template/node_modules/express/package.json
+382 verbose from cache /Users/mickey/Sites/nodejs-template/node_modules/jade/package.json
+383 verbose from cache /Users/mickey/Sites/nodejs-template/node_modules/mongodb/package.json
+384 verbose from cache /Users/mickey/Sites/nodejs-template/node_modules/express/package.json
+385 verbose from cache /Users/mickey/Sites/nodejs-template/node_modules/jade/package.json
+386 verbose from cache /Users/mickey/Sites/nodejs-template/node_modules/mongodb/package.json
+387 verbose from cache /Users/mickey/Sites/nodejs-template/package.json
+388 verbose from cache /Users/mickey/Sites/nodejs-template/package.json
+389 verbose from cache /Users/mickey/Sites/nodejs-template/package.json
+390 verbose from cache /Users/mickey/Sites/nodejs-template/package.json
+391 verbose readDependencies using package.json deps
+392 verbose cache add [ 'socket.io@0.9.10', null ]
+393 silly cache add name=undefined spec="socket.io@0.9.10" args=["socket.io@0.9.10",null]
+394 verbose parsed url { pathname: 'socket.io@0.9.10',
+394 verbose parsed url   path: 'socket.io@0.9.10',
+394 verbose parsed url   href: 'socket.io@0.9.10' }
+395 silly cache add name="socket.io" spec="0.9.10" args=["socket.io","0.9.10"]
+396 verbose parsed url { pathname: '0.9.10', path: '0.9.10', href: '0.9.10' }
+397 verbose addNamed [ 'socket.io', '0.9.10' ]
+398 verbose addNamed [ '0.9.10', '0.9.10' ]
+399 verbose readDependencies using package.json deps
+400 verbose cache add [ 'express@3.0.0rc3', null ]
+401 silly cache add name=undefined spec="express@3.0.0rc3" args=["express@3.0.0rc3",null]
+402 verbose parsed url { pathname: 'express@3.0.0rc3',
+402 verbose parsed url   path: 'express@3.0.0rc3',
+402 verbose parsed url   href: 'express@3.0.0rc3' }
+403 silly cache add name="express" spec="3.0.0rc3" args=["express","3.0.0rc3"]
+404 verbose parsed url { pathname: '3.0.0rc3', path: '3.0.0rc3', href: '3.0.0rc3' }
+405 verbose addNamed [ 'express', '3.0.0rc3' ]
+406 verbose addNamed [ '3.0.0rc3', '3.0.0rc3' ]
+407 verbose readDependencies using package.json deps
+408 verbose cache add [ 'jade@0.27.2', null ]
+409 silly cache add name=undefined spec="jade@0.27.2" args=["jade@0.27.2",null]
+410 verbose parsed url { pathname: 'jade@0.27.2',
+410 verbose parsed url   path: 'jade@0.27.2',
+410 verbose parsed url   href: 'jade@0.27.2' }
+411 silly cache add name="jade" spec="0.27.2" args=["jade","0.27.2"]
+412 verbose parsed url { pathname: '0.27.2', path: '0.27.2', href: '0.27.2' }
+413 verbose addNamed [ 'jade', '0.27.2' ]
+414 verbose addNamed [ '0.27.2', '0.27.2' ]
+415 verbose readDependencies using package.json deps
+416 verbose cache add [ 'mongodb@1.1.4', null ]
+417 silly cache add name=undefined spec="mongodb@1.1.4" args=["mongodb@1.1.4",null]
+418 verbose parsed url { pathname: 'mongodb@1.1.4',
+418 verbose parsed url   path: 'mongodb@1.1.4',
+418 verbose parsed url   href: 'mongodb@1.1.4' }
+419 silly cache add name="mongodb" spec="1.1.4" args=["mongodb","1.1.4"]
+420 verbose parsed url { pathname: '1.1.4', path: '1.1.4', href: '1.1.4' }
+421 verbose addNamed [ 'mongodb', '1.1.4' ]
+422 verbose addNamed [ '1.1.4', '1.1.4' ]
+423 verbose url raw socket.io/0.9.10
+424 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io/0.9.10' ]
+425 verbose url resolved https://registry.npmjs.org/socket.io/0.9.10
+426 http GET https://registry.npmjs.org/socket.io/0.9.10
+427 verbose url raw express/3.0.0rc3
+428 verbose url resolving [ 'https://registry.npmjs.org/', './express/3.0.0rc3' ]
+429 verbose url resolved https://registry.npmjs.org/express/3.0.0rc3
+430 http GET https://registry.npmjs.org/express/3.0.0rc3
+431 verbose url raw jade/0.27.2
+432 verbose url resolving [ 'https://registry.npmjs.org/', './jade/0.27.2' ]
+433 verbose url resolved https://registry.npmjs.org/jade/0.27.2
+434 http GET https://registry.npmjs.org/jade/0.27.2
+435 verbose url raw mongodb/1.1.4
+436 verbose url resolving [ 'https://registry.npmjs.org/', './mongodb/1.1.4' ]
+437 verbose url resolved https://registry.npmjs.org/mongodb/1.1.4
+438 http GET https://registry.npmjs.org/mongodb/1.1.4
+439 http 200 https://registry.npmjs.org/jade/0.27.2
+440 silly registry.get cb [ 200,
+440 silly registry.get   { vary: 'Accept',
+440 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+440 silly registry.get     etag: '"60ITW1YE895GO1D49OV0DJOGH"',
+440 silly registry.get     date: 'Thu, 16 Aug 2012 19:15:46 GMT',
+440 silly registry.get     'content-type': 'application/json',
+440 silly registry.get     'content-length': '764' } ]
+441 verbose addRemoteTarball [ 'https://registry.npmjs.org/jade/-/jade-0.27.2.tgz',
+441 verbose addRemoteTarball   'a18b7645246165d4e2c284b7773ec8936ccee557' ]
+442 verbose fetch to= /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549859-0.16734124324284494/tmp.tgz
+443 http GET https://registry.npmjs.org/jade/-/jade-0.27.2.tgz
+444 http 200 https://registry.npmjs.org/socket.io/0.9.10
+445 silly registry.get cb [ 200,
+445 silly registry.get   { vary: 'Accept',
+445 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+445 silly registry.get     etag: '"DPHCPBKIMHS3AA80D29TUOGSZ"',
+445 silly registry.get     date: 'Thu, 16 Aug 2012 19:15:46 GMT',
+445 silly registry.get     'content-type': 'application/json',
+445 silly registry.get     'content-length': '10685' } ]
+446 http 200 https://registry.npmjs.org/mongodb/1.1.4
+447 silly registry.get cb [ 200,
+447 silly registry.get   { vary: 'Accept',
+447 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+447 silly registry.get     etag: '"CQXA6RLV1CSQ1A9Y1CVF6W2XB"',
+447 silly registry.get     date: 'Thu, 16 Aug 2012 19:15:46 GMT',
+447 silly registry.get     'content-type': 'application/json',
+447 silly registry.get     'content-length': '19109' } ]
+448 verbose addRemoteTarball [ 'https://registry.npmjs.org/socket.io/-/socket.io-0.9.10.tgz',
+448 verbose addRemoteTarball   '20aff51bdfd33066aacdd5df7a44f244e7d2cc6a' ]
+449 verbose fetch to= /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549894-0.6431105386000127/tmp.tgz
+450 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongodb/-/mongodb-1.1.4.tgz',
+450 verbose addRemoteTarball   'bff5860c87b809778d7af991c2c67d596111ebe6' ]
+451 http GET https://registry.npmjs.org/socket.io/-/socket.io-0.9.10.tgz
+452 verbose fetch to= /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549895-0.2991312949452549/tmp.tgz
+453 http GET https://registry.npmjs.org/mongodb/-/mongodb-1.1.4.tgz
+454 http 200 https://registry.npmjs.org/express/3.0.0rc3
+455 silly registry.get cb [ 200,
+455 silly registry.get   { vary: 'Accept',
+455 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+455 silly registry.get     etag: '"8DM9O9N58A2EVZL2N49KLZNUQ"',
+455 silly registry.get     date: 'Thu, 16 Aug 2012 19:15:46 GMT',
+455 silly registry.get     'content-type': 'application/json',
+455 silly registry.get     'content-length': '7391' } ]
+456 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-3.0.0rc3.tgz',
+456 verbose addRemoteTarball   '740d4e14335a1e92a19493930def0c747a0367b4' ]
+457 verbose fetch to= /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549912-0.1556551072280854/tmp.tgz
+458 http GET https://registry.npmjs.org/express/-/express-3.0.0rc3.tgz
+459 silly shasum updated bytes 40960
+460 silly shasum updated bytes 11505
+461 info shasum a18b7645246165d4e2c284b7773ec8936ccee557
+461 info shasum /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549859-0.16734124324284494/tmp.tgz
+462 verbose tar unpack /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549859-0.16734124324284494/tmp.tgz
+463 silly gunzTarPerm modes [ '755', '644' ]
+464 silly gunzTarPerm extractEntry package.json
+465 silly gunzTarPerm extractEntry .npmignore
+466 silly gunzTarPerm extractEntry LICENSE
+467 silly gunzTarPerm extractEntry index.js
+468 silly gunzTarPerm extractEntry jade.js
+469 silly gunzTarPerm extractEntry jade.min.js
+470 silly gunzTarPerm extractEntry runtime.js
+471 silly gunzTarPerm extractEntry runtime.min.js
+472 silly gunzTarPerm extractEntry testing/index.js
+473 silly gunzTarPerm extractEntry testing/user.js
+474 silly gunzTarPerm extractEntry testing/head.jade
+475 silly gunzTarPerm extractEntry testing/index.jade
+476 silly gunzTarPerm extractEntry testing/layout.jade
+477 silly gunzTarPerm extractEntry testing/user.jade
+478 silly gunzTarPerm extractEntry bin/jade
+479 silly gunzTarPerm extractEntry jade.md
+480 silly gunzTarPerm extractEntry test.jade
+481 silly gunzTarPerm extractEntry lib/compiler.js
+482 silly gunzTarPerm extractEntry lib/filters.js
+483 silly gunzTarPerm extractEntry lib/inline-tags.js
+484 silly gunzTarPerm extractEntry lib/jade.js
+485 silly gunzTarPerm extractEntry lib/doctypes.js
+486 silly gunzTarPerm extractEntry lib/self-closing.js
+487 silly gunzTarPerm extractEntry lib/parser.js
+488 silly gunzTarPerm extractEntry lib/runtime.js
+489 silly shasum updated bytes 35554
+490 silly gunzTarPerm extractEntry lib/utils.js
+491 info shasum 20aff51bdfd33066aacdd5df7a44f244e7d2cc6a
+491 info shasum /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549894-0.6431105386000127/tmp.tgz
+492 verbose tar unpack /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549894-0.6431105386000127/tmp.tgz
+493 silly gunzTarPerm extractEntry lib/lexer.js
+494 silly gunzTarPerm modes [ '755', '644' ]
+495 silly gunzTarPerm extractEntry lib/nodes/attrs.js
+496 silly gunzTarPerm extractEntry lib/nodes/code.js
+497 silly gunzTarPerm extractEntry lib/nodes/comment.js
+498 silly gunzTarPerm extractEntry lib/nodes/doctype.js
+499 silly gunzTarPerm extractEntry lib/nodes/case.js
+500 silly gunzTarPerm extractEntry lib/nodes/filter.js
+501 silly gunzTarPerm extractEntry package.json
+502 silly gunzTarPerm extractEntry lib/nodes/index.js
+503 silly gunzTarPerm extractEntry lib/nodes/literal.js
+504 silly gunzTarPerm extractEntry lib/nodes/mixin.js
+505 silly gunzTarPerm extractEntry lib/nodes/node.js
+506 silly gunzTarPerm extractEntry .npmignore
+507 silly gunzTarPerm extractEntry LICENSE
+508 silly gunzTarPerm extractEntry lib/nodes/block.js
+509 silly gunzTarPerm extractEntry lib/nodes/tag.js
+510 silly gunzTarPerm extractEntry index.js
+511 silly gunzTarPerm extractEntry lib/nodes/block-comment.js
+512 silly gunzTarPerm extractEntry lib/nodes/text.js
+513 silly gunzTarPerm extractEntry lib/nodes/each.js
+514 silly gunzTarPerm extractEntry .travis.yml
+515 silly gunzTarPerm extractEntry benchmarks/decode.bench.js
+516 silly gunzTarPerm extractEntry benchmarks/encode.bench.js
+517 silly gunzTarPerm extractEntry benchmarks/runner.js
+518 silly gunzTarPerm extractEntry History.md
+519 silly gunzTarPerm extractEntry lib/client.js
+520 silly gunzTarPerm extractEntry lib/manager.js
+521 silly gunzTarPerm extractEntry lib/namespace.js
+522 silly gunzTarPerm extractEntry lib/parser.js
+523 silly gunzTarPerm extractEntry lib/socket.io.js
+524 silly gunzTarPerm extractEntry lib/logger.js
+525 silly gunzTarPerm extractEntry lib/static.js
+526 silly gunzTarPerm extractEntry lib/store.js
+527 silly shasum updated bytes 34114
+528 info shasum 740d4e14335a1e92a19493930def0c747a0367b4
+528 info shasum /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549912-0.1556551072280854/tmp.tgz
+529 verbose tar unpack /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549912-0.1556551072280854/tmp.tgz
+530 silly gunzTarPerm extractEntry lib/transport.js
+531 silly gunzTarPerm extractEntry lib/util.js
+532 silly gunzTarPerm modes [ '755', '644' ]
+533 silly gunzTarPerm extractEntry lib/socket.js
+534 silly gunzTarPerm extractEntry lib/stores/memory.js
+535 silly gunzTarPerm extractEntry lib/stores/redis.js
+536 silly gunzTarPerm extractEntry package.json
+537 silly gunzTarPerm extractEntry .npmignore
+538 silly gunzTarPerm extractEntry LICENSE
+539 silly gunzTarPerm extractEntry lib/transports/flashsocket.js
+540 silly gunzTarPerm extractEntry lib/transports/htmlfile.js
+541 silly gunzTarPerm extractEntry client.js
+542 silly gunzTarPerm extractEntry lib/transports/http-polling.js
+543 silly gunzTarPerm extractEntry index.js
+544 silly gunzTarPerm extractEntry test.js
+545 silly gunzTarPerm extractEntry lib/transports/http.js
+546 silly gunzTarPerm extractEntry lib/transports/index.js
+547 silly gunzTarPerm extractEntry lib/transports/jsonp-polling.js
+548 silly gunzTarPerm extractEntry lib/transports/websocket.js
+549 silly gunzTarPerm extractEntry lib/transports/xhr-polling.js
+550 silly gunzTarPerm extractEntry lib/transports/websocket/default.js
+551 silly gunzTarPerm extractEntry lib/transports/websocket/hybi-07-12.js
+552 silly gunzTarPerm extractEntry lib/transports/websocket/hybi-16.js
+553 silly gunzTarPerm extractEntry .travis.yml
+554 silly gunzTarPerm extractEntry History.md
+555 silly gunzTarPerm extractEntry lib/transports/websocket/index.js
+556 silly gunzTarPerm extractEntry Makefile
+557 silly gunzTarPerm extractEntry Makefile
+558 silly gunzTarPerm extractEntry Readme.md
+559 silly gunzTarPerm extractEntry bin/express
+560 silly gunzTarPerm extractEntry Readme.md
+561 silly gunzTarPerm extractEntry lib/application.js
+562 silly gunzTarPerm extractEntry lib/express.js
+563 silly gunzTarPerm extractEntry lib/middleware.js
+564 silly gunzTarPerm extractEntry lib/request.js
+565 silly gunzTarPerm extractEntry lib/response.js
+566 silly gunzTarPerm extractEntry lib/utils.js
+567 silly gunzTarPerm extractEntry lib/view.js
+568 silly gunzTarPerm extractEntry lib/router/index.js
+569 silly gunzTarPerm extractEntry lib/router/route.js
+570 verbose read json /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549912-0.1556551072280854/package/package.json
+571 verbose from cache /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549912-0.1556551072280854/package/package.json
+572 verbose tar pack [ '/Users/mickey/.npm/express/3.0.0rc3/package.tgz',
+572 verbose tar pack   '/var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549912-0.1556551072280854/package' ]
+573 verbose tarball /Users/mickey/.npm/express/3.0.0rc3/package.tgz
+574 verbose folder /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549912-0.1556551072280854/package
+575 silly shasum updated bytes 40960
+576 silly shasum updated bytes 40960
+577 silly shasum updated bytes 40960
+578 silly shasum updated bytes 40960
+579 silly shasum updated bytes 40960
+580 silly shasum updated bytes 40960
+581 silly shasum updated bytes 36864
+582 silly shasum updated bytes 36864
+583 silly shasum updated bytes 40960
+584 silly shasum updated bytes 40960
+585 silly shasum updated bytes 40960
+586 silly shasum updated bytes 40960
+587 silly shasum updated bytes 36864
+588 silly shasum updated bytes 36864
+589 silly shasum updated bytes 40960
+590 silly shasum updated bytes 40960
+591 silly shasum updated bytes 33293
+592 info shasum bff5860c87b809778d7af991c2c67d596111ebe6
+592 info shasum /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549895-0.2991312949452549/tmp.tgz
+593 verbose tar unpack /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549895-0.2991312949452549/tmp.tgz
+594 silly gunzTarPerm modes [ '755', '644' ]
+595 silly gunzTarPerm extractEntry package.json
+596 silly gunzTarPerm extractEntry index.js
+597 silly gunzTarPerm extractEntry install.js
+598 silly gunzTarPerm extractEntry .tm_properties
+599 silly gunzTarPerm extractEntry lib/mongodb/admin.js
+600 silly gunzTarPerm extractEntry lib/mongodb/index.js
+601 silly gunzTarPerm extractEntry lib/mongodb/db.js
+602 silly gunzTarPerm extractEntry lib/mongodb/cursor.js
+603 silly gunzTarPerm extractEntry lib/mongodb/collection.js
+604 silly gunzTarPerm extractEntry lib/mongodb/utils.js
+605 silly gunzTarPerm extractEntry lib/mongodb/cursorstream.js
+606 silly gunzTarPerm extractEntry lib/mongodb/connection/connection.js
+607 silly gunzTarPerm extractEntry lib/mongodb/connection/connection_pool.js
+608 silly gunzTarPerm extractEntry lib/mongodb/connection/connection_utils.js
+609 silly gunzTarPerm extractEntry lib/mongodb/connection/mongos.js
+610 silly gunzTarPerm extractEntry lib/mongodb/connection/read_preference.js
+611 silly gunzTarPerm extractEntry lib/mongodb/connection/repl_set.js
+612 silly gunzTarPerm extractEntry lib/mongodb/connection/server.js
+613 silly gunzTarPerm extractEntry lib/mongodb/connection/strategies/ping_strategy.js
+614 silly gunzTarPerm extractEntry lib/mongodb/connection/strategies/statistics_strategy.js
+615 silly gunzTarPerm extractEntry lib/mongodb/gridfs/chunk.js
+616 silly gunzTarPerm extractEntry lib/mongodb/gridfs/grid.js
+617 silly gunzTarPerm extractEntry lib/mongodb/gridfs/gridstore.js
+618 silly gunzTarPerm extractEntry lib/mongodb/gridfs/readstream.js
+619 silly gunzTarPerm extractEntry lib/mongodb/commands/base_command.js
+620 silly gunzTarPerm extractEntry lib/mongodb/commands/db_command.js
+621 silly gunzTarPerm extractEntry lib/mongodb/commands/delete_command.js
+622 silly gunzTarPerm extractEntry lib/mongodb/commands/get_more_command.js
+623 silly gunzTarPerm extractEntry lib/mongodb/commands/insert_command.js
+624 silly gunzTarPerm extractEntry lib/mongodb/commands/kill_cursor_command.js
+625 silly gunzTarPerm extractEntry lib/mongodb/commands/query_command.js
+626 silly gunzTarPerm extractEntry lib/mongodb/commands/update_command.js
+627 silly gunzTarPerm extractEntry lib/mongodb/responses/mongo_reply.js
+628 silly gunzTarPerm extractEntry Makefile
+629 silly gunzTarPerm extractEntry .travis.yml
+630 silly gunzTarPerm extractEntry Readme.md
+631 silly gunzTarPerm extractEntry test_gs_weird_bug_streamed.tmp
+632 verbose read json /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549894-0.6431105386000127/package/package.json
+633 silly gunzTarPerm extractEntry test_gs_working_field_read.tmp
+634 verbose from cache /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549894-0.6431105386000127/package/package.json
+635 verbose tar pack [ '/Users/mickey/.npm/socket.io/0.9.10/package.tgz',
+635 verbose tar pack   '/var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549894-0.6431105386000127/package' ]
+636 verbose tarball /Users/mickey/.npm/socket.io/0.9.10/package.tgz
+637 verbose folder /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549894-0.6431105386000127/package
+638 verbose read json /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549859-0.16734124324284494/package/package.json
+639 verbose from cache /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549859-0.16734124324284494/package/package.json
+640 verbose tar pack [ '/Users/mickey/.npm/jade/0.27.2/package.tgz',
+640 verbose tar pack   '/var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549859-0.16734124324284494/package' ]
+641 verbose tarball /Users/mickey/.npm/jade/0.27.2/package.tgz
+642 verbose folder /var/folders/q8/bb5s39zn5vs348j5m2kwsbgh0000gn/T/npm-1345144547400/1345144549859-0.16734124324284494/package
+643 silly gunzTarPerm extractEntry test_stream_write_2.tmp
+644 silly gunzTarPerm extractEntry upload.py
+645 verbose tar unpack /Users/mickey/.npm/express/3.0.0rc3/package.tgz
+646 silly gunzTarPerm modes [ '755', '644' ]
+647 silly gunzTarPerm extractEntry package.json
+648 silly gunzTarPerm extractEntry .npmignore
+649 silly gunzTarPerm extractEntry LICENSE
+650 silly gunzTarPerm extractEntry client.js
+651 silly gunzTarPerm extractEntry index.js
+652 silly gunzTarPerm extractEntry test.js
+653 silly gunzTarPerm extractEntry .travis.yml
+654 silly gunzTarPerm extractEntry History.md
+655 silly gunzTarPerm extractEntry Makefile
+656 silly gunzTarPerm extractEntry bin/express
+657 silly gunzTarPerm extractEntry Readme.md
+658 silly gunzTarPerm extractEntry lib/application.js
+659 silly gunzTarPerm extractEntry lib/express.js
+660 silly gunzTarPerm extractEntry lib/middleware.js
+661 silly gunzTarPerm extractEntry lib/request.js
+662 silly gunzTarPerm extractEntry lib/response.js
+663 silly gunzTarPerm extractEntry lib/utils.js
+664 silly gunzTarPerm extractEntry lib/view.js
+665 silly gunzTarPerm extractEntry lib/router/index.js
+666 silly gunzTarPerm extractEntry lib/router/route.js
+667 verbose tar unpack /Users/mickey/.npm/socket.io/0.9.10/package.tgz
+668 silly gunzTarPerm modes [ '755', '644' ]
+669 silly gunzTarPerm extractEntry package.json
+670 silly gunzTarPerm extractEntry .npmignore
+671 silly gunzTarPerm extractEntry LICENSE
+672 silly gunzTarPerm extractEntry index.js
+673 silly gunzTarPerm extractEntry .travis.yml
+674 silly gunzTarPerm extractEntry benchmarks/decode.bench.js
+675 silly gunzTarPerm extractEntry benchmarks/encode.bench.js
+676 silly gunzTarPerm extractEntry benchmarks/runner.js
+677 silly gunzTarPerm extractEntry History.md
+678 silly gunzTarPerm extractEntry lib/client.js
+679 silly gunzTarPerm extractEntry lib/manager.js
+680 silly gunzTarPerm extractEntry lib/namespace.js
+681 silly gunzTarPerm extractEntry lib/parser.js
+682 silly gunzTarPerm extractEntry lib/socket.io.js
+683 silly gunzTarPerm extractEntry lib/logger.js
+684 silly gunzTarPerm extractEntry lib/static.js
+685 silly gunzTarPerm extractEntry lib/store.js
+686 silly gunzTarPerm extractEntry lib/transport.js
+687 silly gunzTarPerm extractEntry lib/util.js
+688 silly gunzTarPerm extractEntry lib/socket.js
+689 silly gunzTarPerm extractEntry lib/stores/memory.js
+690 silly gunzTarPerm extractEntry lib/stores/redis.js
+691 silly gunzTarPerm extractEntry lib/transports/flashsocket.js
+692 silly gunzTarPerm extractEntry lib/transports/htmlfile.js
+693 silly gunzTarPerm extractEntry lib/transports/http-polling.js
+694 silly gunzTarPerm extractEntry lib/transports/http.js
+695 silly gunzTarPerm extractEntry lib/transports/index.js
+696 silly gunzTarPerm extractEntry lib/transports/jsonp-polling.js
+697 silly gunzTarPerm extractEntry lib/transports/websocket.js
+698 verbose from cache /Users/mickey/.npm/express/3.0.0rc3/package/package.json
+699 silly gunzTarPerm extractEntry lib/transports/xhr-polling.js
+700 silly gunzTarPerm extractEntry lib/transports/websocket/default.js
+701 silly gunzTarPerm extractEntry lib/transports/websocket/hybi-07-12.js
+702 silly gunzTarPerm extractEntry lib/transports/websocket/hybi-16.js
+703 silly gunzTarPerm extractEntry lib/transports/websocket/index.js
+704 silly shasum updated bytes 8192
+705 silly gunzTarPerm extractEntry Makefile
+706 silly shasum updated bytes 25922
+707 silly gunzTarPerm extractEntry Readme.md
+708 info shasum 740d4e14335a1e92a19493930def0c747a0367b4
+708 info shasum /Users/mickey/.npm/express/3.0.0rc3/package.tgz
+709 verbose from cache /Users/mickey/.npm/express/3.0.0rc3/package/package.json
+710 verbose chmod /Users/mickey/.npm/express/3.0.0rc3/package.tgz 644
+711 verbose chown /Users/mickey/.npm/express/3.0.0rc3/package.tgz [ 501, 20 ]
+712 silly resolved [ { name: 'express',
+712 silly resolved     description: 'Sinatra inspired web development framework',
+712 silly resolved     version: '3.0.0rc3',
+712 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+712 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+712 silly resolved     dependencies:
+712 silly resolved      { connect: '2.4.3',
+712 silly resolved        commander: '0.6.1',
+712 silly resolved        'range-parser': '0.0.4',
+712 silly resolved        mkdirp: '0.3.3',
+712 silly resolved        cookie: '0.0.4',
+712 silly resolved        crc: '0.2.0',
+712 silly resolved        fresh: '0.1.0',
+712 silly resolved        methods: '0.0.1',
+712 silly resolved        send: '0.0.3',
+712 silly resolved        debug: '*' },
+712 silly resolved     devDependencies:
+712 silly resolved      { ejs: '*',
+712 silly resolved        mocha: '*',
+712 silly resolved        jade: '*',
+712 silly resolved        hjs: '*',
+712 silly resolved        stylus: '*',
+712 silly resolved        should: '*',
+712 silly resolved        'connect-redis': '*',
+712 silly resolved        'github-flavored-markdown': '*',
+712 silly resolved        supertest: '0.0.1' },
+712 silly resolved     keywords:
+712 silly resolved      [ 'express',
+712 silly resolved        'framework',
+712 silly resolved        'sinatra',
+712 silly resolved        'web',
+712 silly resolved        'rest',
+712 silly resolved        'restful',
+712 silly resolved        'router',
+712 silly resolved        'app',
+712 silly resolved        'api' ],
+712 silly resolved     publishConfig: { tag: '3.0' },
+712 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/express' },
+712 silly resolved     main: 'index',
+712 silly resolved     bin: { express: './bin/express' },
+712 silly resolved     scripts: { prepublish: 'npm prune', test: 'make test' },
+712 silly resolved     engines: { node: '*' },
+712 silly resolved     _id: 'express@3.0.0rc3',
+712 silly resolved     dist: { shasum: '740d4e14335a1e92a19493930def0c747a0367b4' },
+712 silly resolved     _from: 'express@3.0.0rc3' } ]
+713 info install express@3.0.0rc3 into /Users/mickey/Sites/nodejs-template
+714 info installOne express@3.0.0rc3
+715 verbose from cache /Users/mickey/.npm/express/3.0.0rc3/package/package.json
+716 info /Users/mickey/Sites/nodejs-template/node_modules/express unbuild
+717 verbose from cache /Users/mickey/Sites/nodejs-template/node_modules/express/package.json
+718 info preuninstall express@3.0.0rc1
+719 info uninstall express@3.0.0rc1
+720 verbose true,/Users/mickey/Sites/nodejs-template/node_modules,/Users/mickey/Sites/nodejs-template/node_modules unbuild express@3.0.0rc1
+721 verbose /Users/mickey/Sites/nodejs-template/node_modules/.bin,[object Object] binRoot
+722 info /Users/mickey/Sites/nodejs-template/node_modules/express unbuild
+723 verbose from cache /Users/mickey/Sites/nodejs-template/node_modules/express/package.json
+724 info preuninstall express@3.0.0rc1
+725 info uninstall express@3.0.0rc1
+726 verbose true,/Users/mickey/Sites/nodejs-template/node_modules,/Users/mickey/Sites/nodejs-template/node_modules unbuild express@3.0.0rc1
+727 verbose /Users/mickey/Sites/nodejs-template/node_modules/.bin,[object Object] binRoot
+728 error error rolling back Error: Refusing to delete: /Users/mickey/Sites/nodejs-template/node_modules/.bin/express not in /Users/mickey/Sites/nodejs-template/node_modules/express
+728 error error rolling back     at clobberFail (/usr/local/lib/node_modules/npm/lib/utils/gently-rm.js:41:12)
+728 error error rolling back     at next (/usr/local/lib/node_modules/npm/lib/utils/gently-rm.js:27:14)
+728 error error rolling back     at /usr/local/lib/node_modules/npm/lib/utils/gently-rm.js:36:12
+728 error error rolling back     at Object.oncomplete (fs.js:297:15)
+728 error error rolling back  express@3.0.0rc3 { [Error: Refusing to delete: /Users/mickey/Sites/nodejs-template/node_modules/.bin/express not in /Users/mickey/Sites/nodejs-template/node_modules/express]
+728 error error rolling back   code: 'EEXIST',
+728 error error rolling back   path: '/Users/mickey/Sites/nodejs-template/node_modules/.bin/express' }
+729 error Refusing to delete: /Users/mickey/Sites/nodejs-template/node_modules/.bin/express not in /Users/mickey/Sites/nodejs-template/node_modules/express
+File exists: /Users/mickey/Sites/nodejs-template/node_modules/.bin/express
+Move it away, and try again.
+730 error System Darwin 12.0.0
+731 error command "node" "/usr/local/bin/npm" "update"
+732 error cwd /Users/mickey/Sites/nodejs-template
+733 error node -v v0.8.0
+734 error npm -v 1.1.32
+735 error path /Users/mickey/Sites/nodejs-template/node_modules/.bin/express
+736 error code EEXIST
+737 error message Refusing to delete: /Users/mickey/Sites/nodejs-template/node_modules/.bin/express not in /Users/mickey/Sites/nodejs-template/node_modules/express
+738 verbose exit [ 1, true ]
