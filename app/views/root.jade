@@ -2,3 +2,9 @@ extends layout
 
 block content
   h1 Hello world!
+  p Date: 
+    input(type="text")#datepicker
+  div.reveal-modal.small#testDialog
+    h3#lblLookupDialogHeader Test
+    a.close-reveal-modal &#215;
+    div Hello from reveal
